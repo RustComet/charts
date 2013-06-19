@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
+gem "compass-rails", ">= 1.0.3", :group => :assets
+gem "zurb-foundation", ">= 4.0.9", :group => :assets
+gem "devise", ">= 2.2.3"
+gem "simple_form", ">= 2.1.0"
